@@ -81,4 +81,12 @@ supersuse81@gmail.com
 
 Test can be run using Insomnia. Follow the instructional video
 
+First Part to show the routes and code:
+
+https://app.screencastify.com/v3/watch/Z4RWPBmGIbbF4HDrqcIO
+
+Second Part to show the actual application in Insomnia:
+
+https://app.screencastify.com/v3/watch/48XAwhNdzQyxUsI7sD6B
+
 
