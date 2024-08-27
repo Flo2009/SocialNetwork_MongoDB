@@ -45,6 +45,17 @@ userSchema.virtual('friendCount').get(function() {
   return this.friends.length;
 });
 
+// Pre middleware to delete associated thoughts before user deletion
+userSchema.pre('findOneAndDelete', async function(next) {
+  const user = await this.model.findOne(this.getQuery());
+
+  if (user.thoughts && user.thoughts.length > 0) {
+    await thoughtSchema.deleteMany({ _id: { $in: user.thoughts } });
+  }
+
+  next();
+});
+
 const User = model('user', userSchema);
 
 module.exports = User;
