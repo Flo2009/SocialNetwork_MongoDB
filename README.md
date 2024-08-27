@@ -44,9 +44,13 @@ Friends can be added to the user-account.<br>
 Users can be deleted, thoughts can be deleted. We can update thoughts and users.<br>
 Users, thoughts, reactions, friends can be added. The friends and reactions can be removed.<br>
 
+`The video sequence below shows the start of the application as well as the deletion of a user with the associated thought.`
 
-
-![Screen](./images/Newimage.png)
+![Start](./src/images/screen_5.gif)
+![Start](./src/images/screen_4.gif)
+![Start](./src/images/screen_3.gif)
+![Start](./src/images/screen_2.gif)
+![Start](./src/images/screen_1.gif)
 
 ## Credits
 
